@@ -1,0 +1,73 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#chat-container {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#chat-card {
+    max-height: 30vh;
+    overflow: auto;
+    margin: 20px;
+    /* overflow: hidden; */
+}
+
+#output p {
+    text-align: left;
+    color: #fff;
+    border-radius: 15px 15px 0px 15px;
+    padding: 15px;
+    background-color: #2294fb;
+}
+
+#output p span {
+    display: block;
+    text-align: right;
+    font-size: 11px;
+}
+
+#actions {
+    color: #757575;
+    height: 2rem;
+}
+
+#actions p {
+    margin: 5px 20px;
+}
+
+input {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 95%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+}
+
+button {
+    border: 0;
+    background: #2294fb;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 0;
+    width: 95%;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    #chat-container {
+        max-width: 95%;
+    }
+}
